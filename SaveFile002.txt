@@ -1,0 +1,8 @@
+3
+Douzi G 0 1250 19
+Simon B 0 1050 15
+LiuJin D 0 1500 10 0
+ECH B 0
+PAC B 0
+UWP B 0
+OPT G 0

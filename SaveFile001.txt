@@ -1,0 +1,9 @@
+3
+Douzi G 1 1 3
+Simon B 1 1360 15
+Jam D 1 1300 8
+ECH B 4
+PAC B 0
+DWE B 0
+UWP B 0
+BMH B 4

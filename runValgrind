@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+
+testfilename=${1}
+programname=${2}
+testfile=$(cat $testfilename)
+
+	for n in $testfile
+	do
+	inputfilename=$(echo $n".in")
+	if [ ! -r "$inputfilename" ]; then
+
+	echo "$inputfilename does not exsist or unreadable" >&2
+	exit 2
+
+	else
+
+	output=$(valgrind ./$programname < $inputfilename)
+	fi
+
+	done
