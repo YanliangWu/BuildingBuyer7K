@@ -8,6 +8,17 @@ Including features:
 ### Version
 1.0
 
+### How to run this game? 
+-   Run "g++ *.cc *.h" after cloning the git repository then run "./a.out"  
+Or:
+-   Run Makefile then run "./bb7k"
+-   For premission issue run "chmod u+x ./a.out" to fix.
+
+### Command Line Arguments
+- testing:	Allows the players to choose the resuts of their dice rolls
+- load:	Loads the game saved into , filename should exist and be properly formatted
+
+
 ### TODO List
 - OpenGL Support
 
